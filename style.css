@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppings:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+:root {
+    size: 120px;
+}
+*, *::before, *::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url('https://images.pexels.com/photos/399610/pexels-photo-399610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#container {
+    background: rgba(0,0,0,0,3);
+    box-shadow: 0 0 30px white;
+    border-radius: 10px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppings', sans-serif;
+}
