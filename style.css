@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 body {
-    background: url('https://images.pexels.com/photos/828658/pexels-photo-828658.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background: url('https://img.freepik.com/free-vector/christmas-background-with-bokeh-snowflakes_1393-207.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -107,7 +107,7 @@ body {
     height: 40px;
     position: relative;
     left: 215px;
-    top: 40px;
+    top: 180px;
     z-index: 10;
     display: flex;
     justify-content: space-evenly;
