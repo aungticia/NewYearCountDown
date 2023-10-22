@@ -26,13 +26,21 @@ const currentTime = setInterval(() => {
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     const d = document.getElementById('day');
-    d.textContent = days;
     const h = document.getElementById('hour');
-    h.textContent = hours;
     const m = document.getElementById('minute');
-    m.textContent = minutes;
     const s = document.getElementById('second');
+        
+    d.textContent = days;
+    h.textContent = hours;
+    m.textContent = minutes;
     s.textContent = seconds;
+
+    if (distance <= 0) {
+        clearInterval(currentTime);
+        const messageContainer = document.getElementById('message');
+        messageContainer.innerHTML = '<h1>Happy New Year!</h1>';
+    }
+
 }, 1000);
 
 
